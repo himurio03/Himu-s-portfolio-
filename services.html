@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<meta name="description" content="Premium AI Automation, Web Development, and Digital Marketing services with transparent pricing. Start your project today.">
+
+<title>Services & Pricing | Md. Maruf - Freelance Expert</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+
+* { margin: 0; padding: 0; box-sizing: border-box; cursor: none; }
+
+body { background-color: #050505; font-family: 'Inter', sans-serif; color: #f0f0f0; overflow-x: hidden; scroll-behavior: smooth; }
+
+@media (hover: hover) and (pointer: fine) { .custom-cursor { position: fixed; width: 8px; height: 8px; background: #D4AF37; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); } .cursor-trail { position: fixed; width: 28px; height: 28px; border: 1.5px solid rgba(212,175,55,0.4); border-radius: 50%; pointer-events: none; z-index: 9998; transform: translate(-50%, -50%); backdrop-filter: blur(2px); } a, button { cursor: none; } }
+
+.glass-premium { background: rgba(10,10,15,0.45); backdrop-filter: blur(20px); border: 1px solid rgba(212,175,55,0.18); border-radius: 2rem; transition: all 0.35s; box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+
+.glass-premium:hover { border-color: rgba(212,175,55,0.5); transform: translateY(-4px); }
+nav.glass-premium:hover{transform: translateX(-50%);}
+.btn-gold-solid { background: #D4AF37; color: #050505; font-weight: 700; padding: 0.8rem 2rem; border-radius: 3rem; transition: 0.25s; box-shadow: 0 5px 15px rgba(212,175,55,0.3); display: inline-block; text-align: center; }
+
+.btn-gold-solid:hover { background: #b88d2c; transform: translateY(-3px); }
+
+.btn-outline-gold { border: 1.5px solid #D4AF37; background: transparent; padding: 0.75rem 1.8rem; border-radius: 3rem; color: #D4AF37; font-weight: 600; transition: 0.25s; display: inline-block; text-align: center; }
+
+.btn-outline-gold:hover { background: #D4AF37; color: #050505; transform: translateY(-2px); }
+
+.mesh-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; background: radial-gradient(circle at 20% 30%, rgba(212,175,55,0.08) 0%, #050505 70%); }
+
+.pricing-card { background: rgba(15,15,22,0.55); backdrop-filter: blur(16px); border: 1px solid rgba(212,175,55,0.2); border-radius: 1.8rem; padding: 1.5rem; transition: all 0.3s; height: 100%; }
+
+.pricing-card:hover { border-color: #D4AF37; transform: translateY(-8px); box-shadow: 0 20px 35px -12px rgba(212,175,55,0.2); }
+
+.reveal { opacity: 0; transform: translateY(32px); transition: opacity 0.9s cubic-bezier(0.2,0.9,0.4,1), transform 0.7s ease; }
+
+.reveal.revealed { opacity: 1; transform: translateY(0); }
+
+.whatsapp-float { position: fixed; bottom: 30px; right: 30px; z-index: 100; background: #25D366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(37,211,102,0.3); transition: all 0.3s; animation: pulse 2s infinite; }
+
+.whatsapp-float:hover { transform: scale(1.1); }
+
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); } 70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); } 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); } }
+
+section { scroll-margin-top: 100px; }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="mesh-bg"></div>
+
+<div class="custom-cursor"></div>
+
+<div class="cursor-trail"></div>
+
+
+
+<nav class="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-5xl z-50 rounded-full glass-premium px-6 py-3 backdrop-blur-2xl">
+
+    <div class="flex justify-between items-center">
+
+        <a href="index.html" class="text-2xl font-bold tracking-wide" style="font-family: 'Playfair Display', serif; color:#D4AF37;">Md. Maruf</a>
+
+        <div class="hidden md:flex gap-8 text-sm font-medium">
+
+            <a href="index.html" class="hover:text-[#D4AF37] transition">Home</a>
+
+            <a href="about.html" class="hover:text-[#D4AF37] transition">About</a>
+
+            <a href="services.html" class="hover:text-[#D4AF37] transition text-[#D4AF37]">Services</a>
+
+            <a href="projects.html" class="hover:text-[#D4AF37] transition">Projects</a>
+
+            <a href="blog.html" class="hover:text-[#D4AF37] transition">Blog</a>
+
+            <a href="contact.html" class="hover:text-[#D4AF37] transition">Contact</a>
+
+        </div>
+
+        <button id="mobileMenuBtn" class="md:hidden text-2xl"><i class="fas fa-bars"></i></button>
+
+    </div>
+
+    <div id="mobileMenu" class="hidden md:hidden flex flex-col gap-3 mt-3 pt-2 pb-3 text-center">
+
+        <a href="index.html" class="hover:text-gold py-1">Home</a>
+
+        <a href="about.html" class="hover:text-gold py-1">About</a>
+
+        <a href="services.html" class="hover:text-gold py-1 text-[#D4AF37]">Services</a>
+
+        <a href="projects.html" class="hover:text-gold py-1">Projects</a>
+
+        <a href="blog.html" class="hover:text-gold py-1">Blog</a>
+
+        <a href="contact.html" class="hover:text-gold py-1">Contact</a>
+
+    </div>
+
+</nav>
+
+
+
+<main class="relative z-10 pt-32 px-6">
+
+    <div class="max-w-7xl mx-auto">
+
+        <div class="text-center mb-12 reveal"><h1 class="text-4xl md:text-6xl font-bold" style="font-family: 'Playfair Display', serif; color:#D4AF37;">Premium Services</h1><p class="text-gray-400 mt-4 text-lg">Tailored solutions with transparent pricing. Choose the perfect package for your needs.</p></div>
+
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+
+            <div class="reveal"><div class="pricing-card"><i class="fas fa-robot text-5xl text-[#D4AF37] mb-4"></i><h2 class="text-2xl font-bold mb-3">AI Automation</h2><p class="text-gray-300 mb-4">Custom AI agents, workflow automation, chatbots, lead scoring, and data processing pipelines.</p><div class="space-y-4 mb-6"><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Starter</div><div class="text-2xl font-bold">$49</div><div class="text-sm text-gray-400">Basic automation setup</div></div><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Standard</div><div class="text-2xl font-bold">$79</div><div class="text-sm text-gray-400">Full workflow + AI integration</div></div><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Premium</div><div class="text-2xl font-bold">$99</div><div class="text-sm text-gray-400">Custom AI agents + training</div></div></div><a href="contact.html" class="btn-gold-solid w-full block">Get Started →</a></div></div>
+
+            <div class="reveal"><div class="pricing-card"><i class="fas fa-code text-5xl text-[#D4AF37] mb-4"></i><h2 class="text-2xl font-bold mb-3">Web Development</h2><p class="text-gray-300 mb-4">Modern responsive websites, e-commerce, web apps, and custom CMS solutions.</p><div class="space-y-4 mb-6"><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Starter</div><div class="text-2xl font-bold">$45</div><div class="text-sm text-gray-400">5-page business website</div></div><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Standard</div><div class="text-2xl font-bold">$75</div><div class="text-sm text-gray-400">E-commerce / CMS + SEO</div></div><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Premium</div><div class="text-2xl font-bold">$95</div><div class="text-sm text-gray-400">Custom web app + dashboard</div></div></div><a href="contact.html" class="btn-gold-solid w-full block">Get Started →</a></div></div>
+
+            <div class="reveal"><div class="pricing-card"><i class="fas fa-chart-line text-5xl text-[#D4AF37] mb-4"></i><h2 class="text-2xl font-bold mb-3">Digital Marketing</h2><p class="text-gray-300 mb-4">SEO, Google Ads, social media management, content strategy, and conversion optimization.</p><div class="space-y-4 mb-6"><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Starter</div><div class="text-2xl font-bold">$49/mo</div><div class="text-sm text-gray-400">SEO audit + basic campaign</div></div><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Standard</div><div class="text-2xl font-bold">$59/mo</div><div class="text-sm text-gray-400">Full funnel + content strategy</div></div><div class="border-t border-[#D4AF37]/20 pt-3"><div class="font-bold text-[#D4AF37]">Premium</div><div class="text-2xl font-bold">$99/mo</div><div class="text-sm text-gray-400">Enterprise growth package</div></div></div><a href="contact.html" class="btn-gold-solid w-full block">Get Started →</a></div></div>
+
+        </div>
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+
+            <div class="glass-premium p-8 reveal"><i class="fas fa-palette text-4xl text-[#D4AF37] mb-4"></i><h3 class="text-2xl font-bold mb-3">Brand Identity & Creative</h3><p class="text-gray-300">Logo design, visual identity systems, motion graphics, and complete brand storytelling packages. Starting at $49.</p><a href="contact.html" class="inline-block mt-4 text-[#D4AF37] font-semibold hover:underline">Request Quote →</a></div>
+
+            <div class="glass-premium p-8 reveal"><i class="fas fa-chart-simple text-4xl text-[#D4AF37] mb-4"></i><h3 class="text-2xl font-bold mb-3">Consulting & Strategy</h3><p class="text-gray-300">1-on-1 strategy sessions, business automation audits, and marketing roadmap development. $50/hour.</p><a href="contact.html" class="inline-block mt-4 text-[#D4AF37] font-semibold hover:underline">Book a Call →</a></div>
+
+        </div>
+
+
+
+        <div class="glass-premium p-10 rounded-3xl text-center reveal mb-16"><h2 class="text-3xl font-bold mb-4" style="font-family: 'Playfair Display', serif;">Custom Project? Let's Talk.</h2><p class="text-gray-300 mb-6">Not sure which package fits? I'll help you design the perfect solution for your business goals.</p><a href="contact.html" class="btn-gold-solid inline-flex items-center"><i class="fas fa-comment-dollar mr-2"></i> Get Free Consultation</a></div>
+
+    </div>
+
+</main>
+
+
+
+<footer class="py-8 border-t border-[#D4AF37]/20 text-center text-gray-500 text-sm"><p>© 2026 Md. Maruf — Digital Architect & AI Automation Expert. <span class="text-[#D4AF37]">✦</span> Built for conversion & performance.</p></footer>
+
+<a href="https://wa.me/8801575814239" target="_blank" class="whatsapp-float"><i class="fab fa-whatsapp text-white text-3xl"></i></a>
+
+
+
+<script>
+
+const cursorDot = document.querySelector('.custom-cursor'), cursorTrail = document.querySelector('.cursor-trail');
+
+if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) { document.body.style.cursor = 'none'; document.addEventListener('mousemove', (e) => { cursorDot.style.left = e.clientX + 'px'; cursorDot.style.top = e.clientY + 'px'; cursorTrail.style.left = e.clientX + 'px'; cursorTrail.style.top = e.clientY + 'px'; }); const interactive = document.querySelectorAll('a, button'); interactive.forEach(el => { el.addEventListener('mouseenter', () => { cursorDot.style.width = '14px'; cursorDot.style.height = '14px'; cursorTrail.style.width = '38px'; cursorTrail.style.height = '38px'; }); el.addEventListener('mouseleave', () => { cursorDot.style.width = '8px'; cursorDot.style.height = '8px'; cursorTrail.style.width = '28px'; cursorTrail.style.height = '28px'; }); }); }
+
+const revealElements = document.querySelectorAll('.reveal'); const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('revealed'); observer.unobserve(entry.target); } }); }, { threshold: 0.15 }); revealElements.forEach(el => observer.observe(el));
+
+const mobileBtn = document.getElementById('mobileMenuBtn'), mobileMenu = document.getElementById('mobileMenu'); if (mobileBtn) { mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden')); document.querySelectorAll('#mobileMenu a').forEach(link => { link.addEventListener('click', () => mobileMenu.classList.add('hidden')); }); }
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
